@@ -17,7 +17,7 @@ This project combines deep learning with classical computer vision to detect fir
 ## 📽️ Demo
 
 *Live webcam demo output:*  
-[Include screenshot or demo GIF here]
+(https://drive.google.com/file/d/17E2-11Z9ujDk1UymFThSbIOHfP_W-pr7/view?usp=drive_link)
 
 ---
 
