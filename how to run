@@ -1,0 +1,49 @@
+## 🔧 How to Run the Project
+
+This project detects fire using a webcam feed with a custom-trained YOLOv8 model and HSV-based flame masking.
+
+### ✅ Prerequisites
+
+- Python 3.8+
+- pip
+- Webcam (built-in or USB)
+- PyCharm (optional but recommended)
+- `best.pt` YOLOv8 trained model (place in project folder)
+
+### 📦 Install Required Python Packages
+
+Open a terminal in your project folder and run:
+
+```bash
+pip install ultralytics opencv-python numpy
+```
+
+### ▶️ Running the Script
+
+1. Clone the project repository:
+   ```bash
+   git clone https://github.com/your-username/fire-detection-yolov8-webcam.git
+   cd fire-detection-yolov8-webcam
+   ```
+
+2. Make sure the file `best.pt` is in this project folder.
+
+3. Run the detection script:
+   ```bash
+   python fire_detect.py
+   ```
+
+   Or, if using **PyCharm**:
+   - Open the folder as a project
+   - Right-click `fire_detect.py` > Run
+
+### 🧪 Notes
+
+- Press `q` to close the webcam window.
+- "FIRE DETECTED!" will appear in the frame if fire is found.
+- This system combines:
+  - YOLOv8 detection from `best.pt`
+  - HSV flame color masking
+  - Flicker-based logic for added accuracy
+
+Make sure to test under different lighting conditions for better robustness.
